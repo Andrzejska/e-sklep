@@ -1,0 +1,52 @@
+.detailsCard {
+  font-size: 20px;
+  color: #016c66;
+  background-color: #eee;
+  margin-bottom: 20px;
+  padding: 40px;
+}
+
+.itemIcon {
+  width: 55vw;
+  height: auto;
+}
+
+#itemPrice {
+  color: #F5B41A;
+  font-size: 4vh;
+}
+
+.itemElse {
+  font-size: 2vh;
+}
+
+#itemInfo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0px;
+  padding: 0px;
+  margin-left: 2vh;
+}
+
+#itemName {
+  font-size: 3vh;
+}
+
+.item {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+}
+
+#editImg {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  height: 40px;
+  width: 40px;
+}

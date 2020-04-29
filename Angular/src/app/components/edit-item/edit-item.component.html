@@ -1,0 +1,39 @@
+<div #card class="mt-4 card text-center col-10 offset-1 col-md-8 offset-md-2 editCard" *ngIf="item != null">
+  <div>
+    <form [formGroup]="editForm" id="addForm" onsubmit="return false" autocomplete="off">
+      <div class="errorText" [style.display]="displayErrorText()">nie wszystkie pola zostały wypełnione poprawnie</div>
+      <br>
+      <div class="form-group editField">
+        <label class="card-text" for="inputName">Nazwa</label>
+        <input formControlName="name" type="text" class="form-control" id="inputName">
+      </div>
+      <br>
+      <div class="form-group editField">
+        <label class="card-text" for="inputPrice">Cena</label>
+        <input formControlName="price" type="text" class="form-control" id="inputPrice">
+      </div>
+      <br>
+      <div class="form-group editField">
+        <label class="card-text" for="inputNameOfSeller">Imię sprzedawcy</label>
+        <input formControlName="nameOfSeller" type="text" class="form-control" id="inputNameOfSeller">
+      </div>
+      <br>
+      <div class="form-group editField">
+        <label class="card-text" for="inputSurnameOfSeller">Nazwisko sprzedawcy</label>
+        <input formControlName="surnameOfSeller" type="text" class="form-control" id="inputSurnameOfSeller">
+      </div>
+      <br>
+      <div class="form-group editField">
+        <label class="card-text" for="inputPhone">Numer telefonu sprzedawcy </label>
+        <input formControlName="phone" type="text" class="form-control" id="inputPhone">
+      </div>
+      <br>
+      <div class="form-group editField">
+        <label class="card-text" for="inputImg ">Zdjęcie</label>
+        <input formControlName="img" type="text" class="form-control" id="inputImg">
+      </div>
+      <br>
+      <button class="btn editBtn" (click)="onEdit()">Edutuj</button>
+    </form>
+  </div>
+</div>

@@ -1,0 +1,49 @@
+h1 {
+  text-align: center;
+}
+
+#infoDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#btnDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#addForm {
+  background-color: #eee;
+  color: #016c66;
+  padding: 20px;
+  margin: 10px;
+  transition: transform 0.3s ease-out;
+  transform-origin: top;
+  margin: 20px 100px;
+}
+
+.addItemSubmitBtn {
+  color: #f5d300;
+  background-color: #016c66;
+  border: none;
+  border-radius: 6px;
+  align-self: center;
+
+}
+
+.addItemSubmitBtn:hover {
+  background-color: #00926b;
+}
+
+.addItemSubmitBtn:active {
+  color: #016c66;
+  background-color: #f5d300;
+}
+
+.errorText {
+  text-align: center;
+  color: #ff2040;
+  font-size: 13px;
+}

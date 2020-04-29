@@ -1,0 +1,48 @@
+<!-- <div class="addButton" (click)="openAddForm()" [style.transform]="setTansformAddButton()">
+  <img src="../../../assets/img/add.png" alt="add">
+</div> -->
+<form [formGroup]="addForm" id="addForm" onsubmit="return false" autocomplete="off">
+
+  <h1>Dodaj product</h1>
+  <div [hidden]="isCorrectForm" class="errorText">nie wszystkie pola zostały wypełnione poprawnie</div>
+  <div class="form-group">
+    <label for="inputName">Nazwa productu</label>
+    <input formControlName="name" type="text" class="form-control" id="inputName" placeholder="Name">
+  </div>
+
+  <div class="form-group">
+    <label for="inputPrice">Cena productu</label>
+    <input formControlName="price" type="text" class="form-control" id="inputPrice" placeholder="Price">
+  </div>
+
+  <div class="form-group">
+    <label for="inputNameOfSeller">Imię sprzedawcy</label>
+    <input formControlName="nameOfSeller" type="text" class="form-control" id="inputNameOfSeller"
+      placeholder="Name of seller">
+  </div>
+
+  <div class="form-group">
+    <label for="inputSurnameOfSeller">Nazwisko sprzedawcy</label>
+    <input formControlName="surnameOfSeller" type="text" class="form-control" id="SurnameOfSeller"
+      placeholder="Input surname of seller">
+  </div>
+
+  <div class="form-group">
+    <label for="inputDescription">Opis</label>
+    <input formControlName="description" type="text" class="form-control" id="inputDescription"
+      placeholder="Description">
+  </div>
+
+  <div class="form-group">
+    <label for="inputPhone">Numer telefonu</label>
+    <input formControlName="phone" type="text" class="form-control" id="inputPhone" placeholder="phone of saller">
+  </div>
+
+  <div class="form-group">
+    <label for="inputImg">Zdjęcie</label>
+    <input formControlName="img" type="text" class="form-control" id="inputImg" placeholder="Url of images">
+  </div>
+  <div id="btnDiv">
+    <button type="button'" class="btn  addItemSubmitBtn" (click)="onSubmit()">Submit</button>
+  </div>
+</form>

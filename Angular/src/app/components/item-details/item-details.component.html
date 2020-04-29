@@ -1,0 +1,14 @@
+<div #card class="mt-4 card text-center col-10 offset-1 col-md-8 offset-md-2 detailsCard" *ngIf="item != null">
+  <div class="item flex-sm-column ">
+    <img id="itemImg" src="{{item.imgPath}}" class='itemIcon' alt="">
+
+    <div id="itemInfo">
+      <h1 id="itemName">{{item.name}}</h1>
+      <h2 id="itemPrice">{{setPrice(item.price)}}</h2>
+      <h3 class="itemElse">Sprzedawca: {{item.nameOfSeller}} {{item.surnameOfSeller}}</h3>
+      <h3 class="itemElse">Numer telefonu sprzedawcy: {{item.phone}}</h3>
+      <h3 class="itemElse">Opis: {{item.description}}</h3>
+    </div>
+    <img id="editImg" src="../../../assets/img/edit.png" alt="" [routerLink]="['/components/edit-item/', item.id]">
+  </div>
+</div>

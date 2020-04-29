@@ -1,0 +1,64 @@
+.item {
+  color: #016c66;
+  border: 0px solid #00926b;
+  border-bottom: 1px solid #00926b;
+  border-right: 0px solid #143D59;
+  border-radius: 0px;
+}
+
+#formGroup {
+  display: flex;
+  /* justify-content: space-between; */
+
+}
+
+.form-control {
+  margin-right: 10px;
+}
+
+.courseList {
+  padding: 0px;
+  border-radius: 0px;
+
+  margin: 0px;
+
+}
+
+.courseList :hover {
+  color: #143D59;
+  background-color: rgba(16, 55, 82, 0.103);
+
+}
+
+/* .courseList :active {
+  color: #F5B41A;
+  background-color: #143D59;
+} */
+
+
+
+.oddtest {
+  background-color: #fff;
+}
+
+.eventest {
+  background-color: #fff;
+}
+
+.back {
+  background-color: #eee;
+}
+
+.itemList {
+  background-color: #fff;
+}
+
+.pipes {
+  background-color: #eee;
+  padding: 10px;
+}
+
+.itemPage {
+  background-color: #eee;
+  padding-bottom: 600px;
+}

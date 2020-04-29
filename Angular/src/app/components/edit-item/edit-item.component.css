@@ -1,0 +1,50 @@
+.editCard {
+  font-size: 20px;
+  color: #016c66;
+  background-color: #eee;
+  margin-bottom: 20px;
+  padding: 40px;
+}
+
+.editBtn {
+  color: #f5d300;
+  background-color: #016c66;
+  border: none;
+  border-radius: 6px;
+  align-self: center;
+}
+
+.editBtn:hover {
+  background-color: #00926b;
+}
+
+.editBtn:active {
+  color: #016c66;
+  background-color: #f5d300;
+}
+
+.rate {
+  cursor: pointer;
+}
+
+.warningText {
+  font-size: 10px;
+  color: #f22;
+}
+
+.editField {
+  display: flex;
+  align-items: center;
+
+}
+
+.card-text {
+  width: 100%;
+
+  font-weight: 10px;
+}
+
+.errorText {
+  color: #ff2040;
+  font-size: 13px;
+}

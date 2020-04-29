@@ -1,0 +1,35 @@
+.rate {
+  cursor: pointer;
+  position: absolute;
+  right: 10px;
+  bottom: 7px;
+}
+
+.item {
+
+  width: 100%;
+  display: flex;
+
+}
+
+.itemIcon {
+  height: 20vh;
+}
+
+#itemPrice {
+  color: #F5B41A;
+  font-size: 4vh;
+}
+
+#itemInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0px;
+  padding: 0px;
+  margin-left: 2vh;
+}
+
+#itemName {
+  font-size: 3vh;
+}
