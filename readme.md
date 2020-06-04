@@ -33,6 +33,16 @@ b) Filtrowanie (nazwa/cena/)
 c) Przejścia do szczególów  
 d) Menu  
 
+Szczegóły oferty  
+a) Kupowanie productu   
+b) Nazwa  
+c) Zdjęcie   
+d) Sprzedawca   
+e) Cena   
+f) Opis  
+g) Menu  
+
+![details page](img/detatils.png)
 ![home page](img/home.png)  
 
 ### Krok 3.
