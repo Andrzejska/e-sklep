@@ -14,7 +14,7 @@
 ![Items Firebase](img/items.png)
 
 ### Krok 2.
-**a)** Została stworzona stroną zawięrająca potrzebną dla naszych potrzeb funkcje.
+**a)** Została stworzona stroną zawięrająca potrzebną dla naszych potrzeb funkcji.
 
 ### Krok 3.
 **a)**
