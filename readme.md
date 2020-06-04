@@ -13,8 +13,7 @@
 - Tabela Items
 ![Items Firebase](img/items.png)
 
-### Krok 2.
-**a)** Została stworzona stroną zawięrająca potrzebną dla naszych potrzeb funkcji.
+### Krok 2. Została stworzona stroną zawięrająca potrzebną dla naszych potrzeb funkcji.
 ### Funkcjonalność aplikacji 
 * Widok glówny - wszystkie propozycje 
 * Logowanie 
@@ -32,6 +31,7 @@ a) Oferty
 b) Filtrowanie (nazwa/cena/)  
 c) Przejścia do szczególów  
 d) Menu  
+![home page](img/home.png)  
 
 Szczegóły oferty  
 a) Kupowanie productu   
@@ -43,7 +43,7 @@ f) Opis
 g) Menu  
 
 ![details page](img/detatils.png)
-![home page](img/home.png)  
+
 
 ### Krok 3.
 **a)**
