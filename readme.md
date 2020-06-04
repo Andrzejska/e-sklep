@@ -68,7 +68,7 @@ export class ItemService implements OnInit {
   }
   ...
 ```
-- **generateId()** - 
+- **generateId()** -  z pomocą tej funkcji możemy generować unikalny numer dla każdego kolejnego itemu. Funkcja zwraca maksymalny numer id + 1  
 ```ts
   public generateId(): number {
     var maxId = 0;
@@ -81,7 +81,7 @@ export class ItemService implements OnInit {
   }
   ...
 ```
-- **getItemsRed()** i **getItems()** - 
+- **getItemsRef ()** i **getItems()** - zwraca odpowiegnio listę produktów z bazy danych oraz listę którą zawieraza objekty typu Item   
 ```ts
   getItemsRef(): AngularFirestoreCollection<Item> {
     return this.itemsRef;
@@ -92,7 +92,7 @@ export class ItemService implements OnInit {
   }
   ...
 ```
-- **updateItems()** -
+- **updateItems()** -  ta funkcja przypisuje listę produktów z bazy Firebase do listy która zawiera struktury item  
 ```ts
 private updateItems() {
     this.getItemsRef().snapshotChanges().pipe(
@@ -108,7 +108,7 @@ private updateItems() {
   ...
 ```
 
-- **getItem()**, **updateItem()**, **addItem()**, **deleteItem()** - odpowiadają za zwracanie, modyfikowanie, dodawania oraz usuwanie 
+- **getItem()**, **updateItem()**, **addItem()**, **deleteItem()** - odpowiadają za zwracanie, modyfikowanie, dodawania oraz usuwanie elentów z listy.
 ```ts
   getItem(id: number): Observable<Item> {
     this.updateItems();
