@@ -5,7 +5,7 @@
 - Krok 3. Polączenie komunikaci bazy ze stroną. 
 
 ### Krok 1.
-**a)** Napierw została stworzona baza Firebase zawierająca naszych użytkowników oraz liste produktów, którę  w przyszlości będą przez naszą bazę udostepniąne.
+**a)** Napierw została stworzona baza Firebase zawierająca naszych użytkowników oraz liste produktów, którę  w przyszlości będą przez naszą bazę udostepniąne.  
 ![Users Firebase][img/users.jpg]
 
 ### Krok 2.
