@@ -42,7 +42,7 @@ e) Cena
 f) Opis  
 g) Menu  
 
-![details page](img/detatils.png)
+![details page](img/details.png)
 
 
 ### Krok 3.
