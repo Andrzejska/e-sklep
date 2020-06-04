@@ -23,26 +23,37 @@
 
 
 ### Widok głowny
-a) Oferty  
+**a)** Oferty 
 * nazwa  
-* zdjęcie  
+* zdjęcie   
 * cena  
-* możliwość przejścia do szególów   
-b) Filtrowanie (nazwa/cena/)  
-c) Przejścia do szczególów  
-d) Menu  
+* możliwość przejścia do szególów  
+**b)** Filtrowanie (nazwa/cena/)  
+**c)** Przejścia do szczególów  
+**d)** Menu   
+
 ![home page](img/home.png)  
 
 Szczegóły oferty  
-a) Kupowanie produktu   
-b) Nazwa  
-c) Zdjęcie   
-d) Sprzedawca   
-e) Cena   
-f) Opis  
-g) Menu  
+**a)** Kupowanie productu  
+**b)** Nazwa  
+**c)** Zdjęcie  
+**d)** Sprzedawca  
+**e)** Cena  
+**f)** Opis  
+**g)** Menu  
+
 
 ![details page](img/details.png)
+
+Dodanie/Edycja oferty  
+**a)** Menu  
+**b)** Nazwa  
+**c)** Zdjęcie  
+**d)** Sprzedawca(automatycznie)  
+**e)** Cena  
+**f)** Opis  
+![edit page](img/edit.png)
 
 
 ### Krok 3.
@@ -128,3 +139,5 @@ private updateItems() {
   }
 }
 ```
+
+**b)** Stworzona klasa dla autetyfikacji userów 
