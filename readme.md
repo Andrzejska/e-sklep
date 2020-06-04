@@ -6,7 +6,12 @@
 
 ### Krok 1.
 **a)** Napierw została stworzona baza Firebase zawierająca naszych użytkowników oraz liste produktów, którę  w przyszlości będą przez naszą bazę udostepniąne.  
+
+- Tabela Users 
 ![Users Firebase](img/users.png)
+
+- Tabela Items
+![Items Firebase](img/items.png)
 
 ### Krok 2.
 **a)** Została stworzona stroną zawięrająca potrzebną dla naszych potrzeb funkcje.
