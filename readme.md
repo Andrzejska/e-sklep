@@ -34,7 +34,7 @@ d) Menu
 ![home page](img/home.png)  
 
 Szczegóły oferty  
-a) Kupowanie productu   
+a) Kupowanie produktu   
 b) Nazwa  
 c) Zdjęcie   
 d) Sprzedawca   
