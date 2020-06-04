@@ -140,5 +140,5 @@ private updateItems() {
 }
 ```
 
-**b)** Stworzona klasa dla autetyfikacji userów 
+**b)** Stworzona autetyfikacja userów 
 ![auth Firebase](img/auth.png)
