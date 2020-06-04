@@ -7,7 +7,6 @@ import { AuthenticationService } from 'src/app/services/authentication.service';
 import { User } from 'src/app/models/User';
 import { ItemService } from 'src/app/services/item.service';
 
-
 @Component({
   selector: 'app-item-details',
   templateUrl: './item-details.component.html',
@@ -18,7 +17,7 @@ export class ItemDetailsComponent implements OnInit {
   // @ViewChild('ratemessage', { static: false }) rateMessage: ElementRef;
   user: User;
   private item: Item = null;
-
+  isBought: boolean = false;
   constructor(
     private authService: AuthenticationService,
     private itemService: ItemService,
@@ -26,7 +25,6 @@ export class ItemDetailsComponent implements OnInit {
     private location: Location,
     private router: Router
   ) {
-
   }
 
   ngOnInit(): void {
@@ -55,5 +53,9 @@ export class ItemDetailsComponent implements OnInit {
       return true;
     }
     return false;
+  }
+
+  addProductToOrder(): void {
+    this.isBought = true;
   }
 }

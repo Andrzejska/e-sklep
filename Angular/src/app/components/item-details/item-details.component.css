@@ -50,3 +50,20 @@
   height: 40px;
   width: 40px;
 }
+
+.button {
+  color: #f5d300;
+  background-color: #016c66;
+  border: none;
+  border-radius: 6px;
+  align-self: center;
+}
+
+.button:hover {
+  background-color: #00926b;
+}
+
+.button:active {
+  color: #016c66;
+  background-color: #f5d300;
+}

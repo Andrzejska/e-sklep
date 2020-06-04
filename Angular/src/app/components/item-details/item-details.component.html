@@ -8,6 +8,8 @@
       <h3 class="itemElse">Sprzedawca: {{item.nameOfSeller}} {{item.surnameOfSeller}}</h3>
       <h3 class="itemElse">Numer telefonu sprzedawcy: {{item.phone}}</h3>
       <h3 class="itemElse">Opis: {{item.description}}</h3>
+      <button class="button" type="button" (click)="addProductToOrder()">Buy me</button>
+      <p *ngIf="isBought">The product was added</p>
     </div>
     <img id="editImg" src="../../../assets/img/edit.png" alt="" [routerLink]="['/components/edit-item/', item.id]">
   </div>
