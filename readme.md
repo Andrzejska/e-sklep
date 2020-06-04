@@ -24,16 +24,16 @@
 
 
 ### Widok głowny
-a) Oferty 
-* nazwa 
-* zdjęcie 
-* cena
-* możliwość przejścia do szególów 
-b) Filtrowanie (nazwa/cena/)
-c) Przejścia do szczególów
-d) Menu
+a) Oferty  
+* nazwa  
+* zdjęcie  
+* cena  
+* możliwość przejścia do szególów   
+b) Filtrowanie (nazwa/cena/)  
+c) Przejścia do szczególów  
+d) Menu  
 
-![home page](img/home.png)
+![home page](img/home.png)  
 
 ### Krok 3.
 **a)**
