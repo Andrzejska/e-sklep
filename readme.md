@@ -34,7 +34,7 @@
 
 ![home page](img/home.png)  
 
-Szczegóły oferty  
+### Szczegóły oferty  
 **a)** Kupowanie productu  
 **b)** Nazwa  
 **c)** Zdjęcie  
@@ -46,7 +46,7 @@ Szczegóły oferty
 
 ![details page](img/details.png)
 
-Dodanie/Edycja oferty  
+### Dodanie/Edycja oferty  
 **a)** Menu  
 **b)** Nazwa  
 **c)** Zdjęcie  
