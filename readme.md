@@ -108,7 +108,7 @@ private updateItems() {
   ...
 ```
 
-- **getItem()**, **updateItem()**, **addItem()**, **deleteItem()** - 
+- **getItem()**, **updateItem()**, **addItem()**, **deleteItem()** - odpowiadają za zwracanie, modyfikowanie, dodawania oraz usuwanie 
 ```ts
   getItem(id: number): Observable<Item> {
     this.updateItems();
